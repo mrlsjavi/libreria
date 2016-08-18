@@ -2,19 +2,19 @@
 <html>
 <head>
 	<title><?=(isset($this->title)) ? $this->title : 'Finca'  ?> </title>
-	
-	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.1/themes/sunny/jquery-ui.css"/>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.1/themes/sunny/jquery-ui.css"/>
+
+	
+
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="<?php echo URL; ?>public/js/custom.js"></script>
 
 
 	<meta name="viewport" content="width=device-width">
-	<script src="http://estacion.solucionclic.com/librerias/externas/js/jquery_cookie.js"></script>
-   	<link rel="shortcut icon" type="image/png" href="http://estacion.solucionclic.com/apariencia/favicon.png"/>
-   	<link rel="icon" type="image/png" href="http://estacion.solucionclic.com/apariencia/favicon.png" /> 
-    	
+	
 
 
 	<?php
@@ -67,8 +67,7 @@
 				</nav>
 				<div id="contenedor_titulo_pagina">Sistema Reservas</div>	
 			</div>
-			<div id="box-search"><form action="http://estacion.solucionclic.com/contenedores/negocios/buscador.php" method="post">
-
+			
 				<!--<input type="text" name="text-search" placeholder="Que deseas buscar..."><input type="submit" id="button-search" value="Buscar"></form>-->
 			</div>
 		
